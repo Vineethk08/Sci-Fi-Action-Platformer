@@ -1,28 +1,70 @@
-# Submission Directory
+# Sci-Fi Action Platformer
 
-All your work goes here. Each subdirectory corresponds to a module.
+A side-scrolling action platformer prototype built in **Defold 1.12.2** using the Void Docking Facility asset pack.
 
-## Checklist
+## 🎮 Gameplay
 
-Before submitting, verify:
+The goal of this prototype is to test a fully animated player character that can move, jump, aim at the cursor, and shoot blast projectiles in any direction.
 
-- [ ] **Module 1 — Terraform**: All `.tf` files in `terraform/` are complete, bugs fixed in `networking.tf`, `cost_optimization.tf` created
-- [ ] **Module 2 — Kubernetes**: All manifests in `k8s/` are complete, incident responses filled in
-- [ ] **Module 3 — Network/Edge**: `network/` and `edge/` files completed
-- [ ] **Module 4 — CI/CD**: Pipeline, deploy script, and monitoring doc in `cicd/` completed
-- [ ] **Module 5 — Debug**: Root cause analysis, remediation script, and postmortem in `debug/` completed
+- **Move**: A / D or Arrow Keys
+- **Jump**: Spacebar (no double jump)
+- **Aim**: Move the mouse cursor — aim snaps to nearest 45 degrees
+- **Shoot**: Left mouse click
 
-## Submission Instructions
+## ✨ Features
 
-1. Commit all changes to your private repository
-2. Run the syntax checker: `python -m check`
-3. Add the reviewers listed in your assessment email as collaborators
-4. Reply to the assessment email with your repository URL
+- Fully animated player with run, stand, and jump states
+- Left and right facing animations (not flipped — separate sprite sets)
+- 45-degree cursor aiming with backward aim clamping
+- Blast projectile spawns from the gun tip, travels in aim direction, rotates to face direction
+- Blast despawns on wall collision or going offscreen
+- Tile-based level with floating platform and two floor heights
+- Player fully enclosed — cannot walk or fall out of level
+- Black background level aesthetic
 
-## Syntax Checker
+## 🗂️ Project Structure
 
-```bash
-# From the repo root
-pip install -r requirements.txt
-python -m check
 ```
+Sci-Fi_Action_Platformer/
+├── input/
+│   └── game.input_binding
+├── main/
+│   ├── images/
+│   │   ├── player/         # All player sprites
+│   │   ├── projectiles/    # Blaster sprites
+│   │   └── tilesource/     # Level tileset
+│   ├── level/
+│   │   └── level.tilemap
+│   ├── player/
+│   │   ├── player.atlas    # 30 animation groups
+│   │   ├── player.go
+│   │   └── player.script
+│   ├── projectiles/
+│   │   ├── blast.atlas
+│   │   ├── blast.go
+│   │   └── blast.script
+│   └── main.collection
+└── game.project
+```
+
+## 🎨 Assets
+
+Assets from the **Void Asset Pack: Docking Facility** (free section of itch.io).
+
+## 🛠️ Built With
+
+- [Defold](https://defold.com/) — Game Engine
+- Lua — Scripting language
+
+## 🚀 How to Run
+
+1. Download and install [Defold](https://defold.com/download/)
+2. Open Defold and select **Open Project**
+3. Navigate to this folder and open `game.project`
+4. Press **Cmd+B** (Mac) or **Ctrl+B** (Windows) to build and run
+
+## 📝 Notes
+
+- This is a prototype — no win/lose states
+- Camera follow is not implemented in this version
+- Developed as part of a Feather employee task
