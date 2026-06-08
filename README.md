@@ -1,13 +1,28 @@
-# Welcome to Defold
+# Submission Directory
 
-This project was created from the "empty" project template.
+All your work goes here. Each subdirectory corresponds to a module.
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
+## Checklist
 
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
+Before submitting, verify:
 
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
+- [ ] **Module 1 — Terraform**: All `.tf` files in `terraform/` are complete, bugs fixed in `networking.tf`, `cost_optimization.tf` created
+- [ ] **Module 2 — Kubernetes**: All manifests in `k8s/` are complete, incident responses filled in
+- [ ] **Module 3 — Network/Edge**: `network/` and `edge/` files completed
+- [ ] **Module 4 — CI/CD**: Pipeline, deploy script, and monitoring doc in `cicd/` completed
+- [ ] **Module 5 — Debug**: Root cause analysis, remediation script, and postmortem in `debug/` completed
 
-Happy Defolding!
+## Submission Instructions
 
----
+1. Commit all changes to your private repository
+2. Run the syntax checker: `python -m check`
+3. Add the reviewers listed in your assessment email as collaborators
+4. Reply to the assessment email with your repository URL
+
+## Syntax Checker
+
+```bash
+# From the repo root
+pip install -r requirements.txt
+python -m check
+```
