@@ -1,0 +1,9 @@
+animations {
+  id: "blast"
+  images {
+    image: "/main/images/projectiles/Blaster1.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 12
+}
+extrude_borders: 2

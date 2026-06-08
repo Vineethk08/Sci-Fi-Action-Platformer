@@ -1,0 +1,17 @@
+go.property('velocity', vmath.vector3(0, 0, 0))
+
+function update(self, dt)
+	local pos = go.get_position()
+	pos = pos + self.velocity * dt
+	go.set_position(pos)
+
+	if pos.x < -50 or pos.x > 700 or pos.y < -50 or pos.y > 450 then
+		go.delete()
+	end
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash('contact_point_response') then
+		go.delete()
+	end
+end

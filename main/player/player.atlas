@@ -1,0 +1,301 @@
+animations {
+  id: "stand_r_fwd"
+  images {
+    image: "/main/images/player/Standing Right/Voidster_Standing_R_AimRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_r_up"
+  images {
+    image: "/main/images/player/Standing Right/Voidster_Standing_R_AimUp.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_r_downfwd"
+  images {
+    image: "/main/images/player/Standing Right/Voidster_Standing_R_AimDownRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_r_down"
+  images {
+    image: "/main/images/player/Standing Right/Voidster_Standing_R_AimDown.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_l_fwd"
+  images {
+    image: "/main/images/player/Standing Left/Voidster_Standing_L_AimLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_l_up"
+  images {
+    image: "/main/images/player/Standing Left/Voidster_Standing_L_AimUp.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_l_upfwd"
+  images {
+    image: "/main/images/player/Standing Left/Voidster_Standing_L_AimUpLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_l_downfwd"
+  images {
+    image: "/main/images/player/Standing Left/Voidster_Standing_L_AimDownLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_l_down"
+  images {
+    image: "/main/images/player/Standing Left/Voidster_Standing_L_AimDown.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "stand_r_upfwd"
+  images {
+    image: "/main/images/player/Standing Right/Voidster_Standing_R_AimUpRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_r_fwd"
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimRight1.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimRight2.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimRight3.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimRight4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_r_up"
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUp1.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUp2.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUp3.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUp4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_r_upfwd"
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUpRight1.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUpRight2.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUpRight3.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimUpRight4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_r_downfwd"
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDownRight1.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDownRight2.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDownRight3.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDownRight4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_r_down"
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDown1.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDown2.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDown3.png"
+  }
+  images {
+    image: "/main/images/player/Run Right/Voidster_Run_R_AimDown4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_l_fwd"
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimLeft1.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimLeft2.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimLeft3.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimLeft4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_l_up"
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUp1.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUp2.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUp3.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUp4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_l_upfwd"
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUpLeft1.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUpLeft2.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUpLeft3.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimUpLeft4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_l_downfwd"
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDownLeft1.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDownLeft2.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDownLeft3.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDownLeft4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "run_l_down"
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDown1.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDown2.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDown3.png"
+  }
+  images {
+    image: "/main/images/player/Run Left/Voidster_Run_L_AimDown4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_r_fwd"
+  images {
+    image: "/main/images/player/Jump Right/Voidster_Jump_R_AimRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_r_up"
+  images {
+    image: "/main/images/player/Jump Right/Voidster_Jump_R_AimUp.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_r_upfwd"
+  images {
+    image: "/main/images/player/Jump Right/Voidster_Jump_R_AimUpRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_r_downfwd"
+  images {
+    image: "/main/images/player/Jump Right/Voidster_Jump_R_AimDownRight.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_r_down"
+  images {
+    image: "/main/images/player/Jump Right/Voidster_Jump_R_AimDown.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_l_fwd"
+  images {
+    image: "/main/images/player/Jump Left/Voidster_Jump_L_AimLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_l_up"
+  images {
+    image: "/main/images/player/Jump Left/Voidster_Jump_L_AimUp.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_l_upfwd"
+  images {
+    image: "/main/images/player/Jump Left/Voidster_Jump_L_AimUpLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_l_downfwd"
+  images {
+    image: "/main/images/player/Jump Left/Voidster_Jump_L_AimDownLeft.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "jump_l_down"
+  images {
+    image: "/main/images/player/Jump Left/Voidster_Jump_L_AimDown.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+extrude_borders: 2
